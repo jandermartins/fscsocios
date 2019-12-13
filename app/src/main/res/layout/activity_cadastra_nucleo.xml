@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CadastraNucleo">
+
+    <EditText
+        android:id="@+id/etNomeNucleo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="88dp"
+        android:ems="10"
+        android:hint="Nome do Nucleo"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="@+id/etCoordenador2"
+        app:layout_constraintStart_toStartOf="@+id/etCoordenador2"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/etCoodernador"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="46dp"
+        android:layout_marginEnd="3dp"
+        android:ems="10"
+        android:hint="Coordenador 1"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="@+id/etNomeNucleo"
+        app:layout_constraintTop_toBottomOf="@+id/etNomeNucleo" />
+
+    <EditText
+        android:id="@+id/etCoordenador2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="2dp"
+        android:layout_marginBottom="46dp"
+        android:ems="10"
+        android:hint="Coordenador 2"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toTopOf="@+id/etTesoureiro"
+        app:layout_constraintEnd_toEndOf="@+id/etTesoureiro" />
+
+    <EditText
+        android:id="@+id/etTesoureiro"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="70dp"
+        android:ems="10"
+        android:hint="Tesoureiro"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btCadastraNucleo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="65dp"
+        android:text="Cadastrar"
+        app:layout_constraintEnd_toEndOf="@+id/etTesoureiro"
+        app:layout_constraintStart_toStartOf="@+id/etTesoureiro"
+        app:layout_constraintTop_toBottomOf="@+id/etTesoureiro" />
+</androidx.constraintlayout.widget.ConstraintLayout>
