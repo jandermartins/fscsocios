@@ -9,7 +9,7 @@ public class Socio {
     private String CPF;
     private String RG;
     private String endereco;
-    private Date nascimento;
+    private String nascimento;
     private String urlFoto3x4;
     private String idNucleo;
 
@@ -17,7 +17,7 @@ public class Socio {
 
     }
 
-    public Socio(String idSocio, String nome, String CPF, String RG, String endereco, Date nascimento, String urlFoto3x4, String idNucleo) {
+    public Socio(String idSocio, String nome, String CPF, String RG, String endereco, String nascimento, String urlFoto3x4, String idNucleo) {
         this.idSocio = idSocio;
         this.nome = nome;
         this.CPF = CPF;
@@ -89,11 +89,11 @@ public class Socio {
         this.endereco = endereco;
     }
 
-    public Date getNascimento() {
+    public String getNascimento() {
         return nascimento;
     }
 
-    public void setNascimento(Date nascimento) {
+    public void setNascimento(String nascimento) {
         this.nascimento = nascimento;
     }
 
