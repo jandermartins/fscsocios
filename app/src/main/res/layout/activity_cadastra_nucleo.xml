@@ -10,57 +10,57 @@
         android:id="@+id/etNomeNucleo"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="88dp"
         android:ems="10"
         android:hint="Nome do Nucleo"
         android:inputType="textPersonName"
-        app:layout_constraintEnd_toEndOf="@+id/etCoordenador2"
-        app:layout_constraintStart_toStartOf="@+id/etCoordenador2"
-        app:layout_constraintTop_toTopOf="parent" />
+        tools:layout_editor_absoluteX="99dp"
+        tools:layout_editor_absoluteY="87dp" />
 
     <EditText
-        android:id="@+id/etCoodernador"
+        android:id="@+id/etCoodernadorGeral"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="46dp"
-        android:layout_marginEnd="3dp"
         android:ems="10"
-        android:hint="Coordenador 1"
+        android:hint="Coordenador Geral"
         android:inputType="textPersonName"
-        app:layout_constraintEnd_toEndOf="@+id/etNomeNucleo"
-        app:layout_constraintTop_toBottomOf="@+id/etNomeNucleo" />
+        tools:layout_editor_absoluteX="99dp"
+        tools:layout_editor_absoluteY="152dp" />
 
     <EditText
-        android:id="@+id/etCoordenador2"
+        android:id="@+id/etCoordenadorFinanceiro"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginEnd="2dp"
-        android:layout_marginBottom="46dp"
         android:ems="10"
-        android:hint="Coordenador 2"
+        android:hint="Coordenador Financeiro"
         android:inputType="textPersonName"
-        app:layout_constraintBottom_toTopOf="@+id/etTesoureiro"
-        app:layout_constraintEnd_toEndOf="@+id/etTesoureiro" />
+        tools:layout_editor_absoluteX="99dp"
+        tools:layout_editor_absoluteY="217dp" />
 
     <EditText
-        android:id="@+id/etTesoureiro"
+        android:id="@+id/etSuplente"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginEnd="70dp"
         android:ems="10"
-        android:hint="Tesoureiro"
+        android:hint="Suplente"
         android:inputType="textPersonName"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        tools:layout_editor_absoluteX="99dp"
+        tools:layout_editor_absoluteY="353dp" />
 
     <Button
         android:id="@+id/btCadastraNucleo"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="65dp"
         android:text="Cadastrar"
-        app:layout_constraintEnd_toEndOf="@+id/etTesoureiro"
-        app:layout_constraintStart_toStartOf="@+id/etTesoureiro"
-        app:layout_constraintTop_toBottomOf="@+id/etTesoureiro" />
+        tools:layout_editor_absoluteX="153dp"
+        tools:layout_editor_absoluteY="470dp" />
+
+    <EditText
+        android:id="@+id/etCoordenadorAdm"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Coordenador(a) ADM"
+        android:inputType="textPersonName"
+        tools:layout_editor_absoluteX="99dp"
+        tools:layout_editor_absoluteY="288dp" />
 </androidx.constraintlayout.widget.ConstraintLayout>
