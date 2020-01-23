@@ -1,4 +1,4 @@
-package br.crateus.fscsocios;
+package br.crateus.fscsocios.activitys;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -9,6 +9,8 @@ import android.widget.Button;
 
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
+
+import br.crateus.fscsocios.R;
 
 public class MainActivity extends AppCompatActivity {
 

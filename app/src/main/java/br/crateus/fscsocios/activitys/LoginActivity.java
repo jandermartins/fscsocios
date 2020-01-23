@@ -1,4 +1,4 @@
-package br.crateus.fscsocios;
+package br.crateus.fscsocios.activitys;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
@@ -17,7 +17,7 @@ import com.google.firebase.auth.AuthResult;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
 
-import java.util.Objects;
+import br.crateus.fscsocios.R;
 
 public class LoginActivity extends AppCompatActivity {
 
