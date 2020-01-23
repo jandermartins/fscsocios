@@ -7,22 +7,12 @@
     tools:context=".MainActivity">
 
     <Button
-        android:id="@+id/btNovoSocio"
+        android:id="@+id/btLogin"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="74dp"
-        android:layout_marginEnd="7dp"
-        android:text="Novo Socio"
-        app:layout_constraintEnd_toEndOf="@+id/btBuscarSocio"
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <Button
-        android:id="@+id/btBuscarSocio"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="22dp"
-        android:text="Buscar Sócio"
+        android:layout_marginTop="321dp"
+        android:text="Login"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/btNovoSocio" />
+        app:layout_constraintTop_toTopOf="parent" />
 </androidx.constraintlayout.widget.ConstraintLayout>

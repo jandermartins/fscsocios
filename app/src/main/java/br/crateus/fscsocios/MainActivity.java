@@ -1,4 +1,4 @@
-package br.fsc.crateus.fscsocios;
+package br.crateus.fscsocios;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -9,20 +9,19 @@ import android.widget.Button;
 
 public class MainActivity extends AppCompatActivity {
 
-    Button btNovoSocio, btBuscaSocio;
+    Button login;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        btNovoSocio = (Button) findViewById(R.id.btNovoSocio);
-        btBuscaSocio = (Button) findViewById(R.id.btBuscarSocio);
+        login = (Button) findViewById(R.id.btLogin);
 
-        btNovoSocio.setOnClickListener(new View.OnClickListener() {
+        login.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                startActivity(new Intent(MainActivity.this, CadastraSocio.class));
+                startActivity(new Intent(MainActivity.this, LoginActivity.class));
             }
         });
     }

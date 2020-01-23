@@ -1,4 +1,4 @@
-package br.fsc.crateus.fscsocios;
+package br.crateus.fscsocios;
 
 import android.content.Context;
 
@@ -22,6 +22,6 @@ public class ExampleInstrumentedTest {
         // Context of the app under test.
         Context appContext = InstrumentationRegistry.getInstrumentation().getTargetContext();
 
-        assertEquals("br.fsc.crateus.fscsocios", appContext.getPackageName());
+        assertEquals("br.crateus.fscsocios", appContext.getPackageName());
     }
 }

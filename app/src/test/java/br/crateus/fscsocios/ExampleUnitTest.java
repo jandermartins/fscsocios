@@ -1,4 +1,4 @@
-package br.fsc.crateus.fscsocios;
+package br.crateus.fscsocios;
 
 import org.junit.Test;
 

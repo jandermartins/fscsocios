@@ -1,42 +1,42 @@
 {
   "project_info": {
-    "project_number": "621628402842",
-    "firebase_url": "https://fscsocios.firebaseio.com",
-    "project_id": "fscsocios",
-    "storage_bucket": "fscsocios.appspot.com"
+    "project_number": "52539873908",
+    "firebase_url": "https://frentesocialcristasocios.firebaseio.com",
+    "project_id": "frentesocialcristasocios",
+    "storage_bucket": "frentesocialcristasocios.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:621628402842:android:7878ebb847befe1b760323",
+        "mobilesdk_app_id": "1:52539873908:android:7c88cde792831fe0160f21",
         "android_client_info": {
-          "package_name": "br.fsc.crateus.fscsocios"
+          "package_name": "br.crateus.fscsocios"
         }
       },
       "oauth_client": [
         {
-          "client_id": "621628402842-a4r73ic6mg9e1s7o9ecuhguh2uosnta9.apps.googleusercontent.com",
+          "client_id": "52539873908-jv1r8u9rmseagohc6d92ff7s6lmvfpnl.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {
-            "package_name": "br.fsc.crateus.fscsocios",
-            "certificate_hash": "901372186fd63eec7f771450576790e0f13bc84a"
+            "package_name": "br.crateus.fscsocios",
+            "certificate_hash": "368486eeff9d3cf98592f6a40fe8416d4c8427c0"
           }
         },
         {
-          "client_id": "621628402842-e0vfajb7s0m58nl7gb20ese958t371qt.apps.googleusercontent.com",
+          "client_id": "52539873908-mp0rdoqtij9lpgmeccol1o3rvb3c7kqk.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyBu_DEE2kowA093Pce61gFZsyTL8K8XCv4"
+          "current_key": "AIzaSyCx7YZuhdfBJ7jJmjtzwXbybvBzFVrIkY8"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "621628402842-e0vfajb7s0m58nl7gb20ese958t371qt.apps.googleusercontent.com",
+              "client_id": "52539873908-mp0rdoqtij9lpgmeccol1o3rvb3c7kqk.apps.googleusercontent.com",
               "client_type": 3
             }
           ]
