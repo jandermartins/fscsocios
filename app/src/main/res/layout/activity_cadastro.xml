@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CadastroActivity">
+
+    <EditText
+        android:id="@+id/etNomeCadastro"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Nome Completo"
+        android:inputType="textPersonName"
+        tools:layout_editor_absoluteX="112dp"
+        tools:layout_editor_absoluteY="32dp" />
+
+    <EditText
+        android:id="@+id/etEnderecoCadastro"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Endereço"
+        android:inputType="textPersonName"
+        tools:layout_editor_absoluteX="112dp"
+        tools:layout_editor_absoluteY="97dp" />
+
+    <EditText
+        android:id="@+id/etNascimentoCadastro"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="dd/MM/aaaa"
+        android:inputType="date"
+        tools:layout_editor_absoluteX="112dp"
+        tools:layout_editor_absoluteY="160dp" />
+
+    <EditText
+        android:id="@+id/etCpfCadastro"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="CPF"
+        android:inputType="number"
+        tools:layout_editor_absoluteX="112dp"
+        tools:layout_editor_absoluteY="225dp" />
+
+    <EditText
+        android:id="@+id/etRgCadastro"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="RG"
+        android:inputType="number"
+        tools:layout_editor_absoluteX="110dp"
+        tools:layout_editor_absoluteY="295dp" />
+
+    <EditText
+        android:id="@+id/etRacaCadastro"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Raça"
+        android:inputType="textPersonName"
+        tools:layout_editor_absoluteX="112dp"
+        tools:layout_editor_absoluteY="368dp" />
+
+    <Spinner
+        android:id="@+id/spEscolaridadeCadastro"
+        android:layout_width="209dp"
+        android:layout_height="wrap_content"
+        tools:layout_editor_absoluteX="110dp"
+        tools:layout_editor_absoluteY="438dp" />
+</androidx.constraintlayout.widget.ConstraintLayout>
