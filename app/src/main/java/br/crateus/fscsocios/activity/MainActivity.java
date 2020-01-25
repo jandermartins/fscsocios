@@ -1,4 +1,4 @@
-package br.crateus.fscsocios.activitys;
+package br.crateus.fscsocios.activity;
 
 import androidx.appcompat.app.AppCompatActivity;
 

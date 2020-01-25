@@ -4,72 +4,85 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".CadastroActivity">
+    tools:context=".activity.CadastroActivity">
 
     <EditText
         android:id="@+id/etNomeCadastro"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
         android:ems="10"
         android:hint="Nome Completo"
         android:inputType="textPersonName"
-        tools:layout_editor_absoluteX="112dp"
-        tools:layout_editor_absoluteY="32dp" />
+        app:layout_constraintEnd_toEndOf="@+id/etRacaCadastro"
+        app:layout_constraintStart_toStartOf="@+id/etRacaCadastro"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <EditText
         android:id="@+id/etEnderecoCadastro"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
         android:ems="10"
         android:hint="Endereço"
         android:inputType="textPersonName"
-        tools:layout_editor_absoluteX="112dp"
-        tools:layout_editor_absoluteY="97dp" />
+        app:layout_constraintStart_toStartOf="@+id/etNomeCadastro"
+        app:layout_constraintTop_toBottomOf="@+id/etNomeCadastro" />
 
     <EditText
         android:id="@+id/etNascimentoCadastro"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="18dp"
         android:ems="10"
         android:hint="dd/MM/aaaa"
         android:inputType="date"
-        tools:layout_editor_absoluteX="112dp"
-        tools:layout_editor_absoluteY="160dp" />
+        app:layout_constraintStart_toStartOf="@+id/etEnderecoCadastro"
+        app:layout_constraintTop_toBottomOf="@+id/etEnderecoCadastro" />
 
     <EditText
         android:id="@+id/etCpfCadastro"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
         android:ems="10"
         android:hint="CPF"
         android:inputType="number"
-        tools:layout_editor_absoluteX="112dp"
-        tools:layout_editor_absoluteY="225dp" />
+        app:layout_constraintStart_toStartOf="@+id/etNascimentoCadastro"
+        app:layout_constraintTop_toBottomOf="@+id/etNascimentoCadastro" />
 
     <EditText
         android:id="@+id/etRgCadastro"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:layout_marginEnd="2dp"
+        android:layout_marginRight="2dp"
         android:ems="10"
         android:hint="RG"
         android:inputType="number"
-        tools:layout_editor_absoluteX="110dp"
-        tools:layout_editor_absoluteY="295dp" />
+        app:layout_constraintEnd_toEndOf="@+id/etCpfCadastro"
+        app:layout_constraintTop_toBottomOf="@+id/etCpfCadastro" />
 
     <EditText
         android:id="@+id/etRacaCadastro"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginStart="2dp"
+        android:layout_marginLeft="2dp"
+        android:layout_marginTop="28dp"
         android:ems="10"
         android:hint="Raça"
         android:inputType="textPersonName"
-        tools:layout_editor_absoluteX="112dp"
-        tools:layout_editor_absoluteY="368dp" />
+        app:layout_constraintStart_toStartOf="@+id/spEscolaridadeCadastro"
+        app:layout_constraintTop_toBottomOf="@+id/etRgCadastro" />
 
     <Spinner
         android:id="@+id/spEscolaridadeCadastro"
         android:layout_width="209dp"
         android:layout_height="wrap_content"
-        tools:layout_editor_absoluteX="110dp"
-        tools:layout_editor_absoluteY="438dp" />
+        android:layout_marginTop="25dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/etRacaCadastro" />
 </androidx.constraintlayout.widget.ConstraintLayout>
